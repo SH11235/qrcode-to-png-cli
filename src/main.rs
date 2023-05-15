@@ -23,7 +23,8 @@ fn main() {
 
     // for print to console
     // {
-    //     let qr_string: QrCode = QrCode::encode_text(&text, errcorlvl).unwrap();
+    //     let err_correction_level: QrCodeEcc = QrCodeEcc::Low;
+    //     let qr_string: QrCode = QrCode::encode_text(&text, err_correction_level).unwrap();
     //     let border: i32 = 4;
     //     for y in -border .. qr_string.size() + border {
     //         for x in -border .. qr_string.size() + border {
